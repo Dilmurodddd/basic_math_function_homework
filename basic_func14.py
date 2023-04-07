@@ -8,4 +8,6 @@ def main(a, b):
     Returns:
         int: the result.
     '''
-    return 
+    from math import floor
+    return (floor(a/b))
+print(main(100,10))
